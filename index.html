@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2224056 - web演習11回目の課題</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+    
+
+    <style>
+        body{
+            background: #d9c6f0;
+            font-family: 'DotGothic16', sans-serif;
+
+        }
+
+        .menu{
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            max-width: auto;
+            margin: auto;
+            background-color: #ffffff;
+            justify-content: center;
+        }
+
+        .menu li{
+            margin: 20px;
+            background: #ffffff;
+            justify-content: center;
+        }
+
+        .wrap{
+            /*max-width: 600px;*/
+            margin: auto;
+            background-image: url(IMG_9905.JPG);
+            background-size: cover;
+        }
+
+        
+
+        .card{
+            flex-basis: 29.33%;
+            margin: 2% 2% 2% 2%;
+            border: 3px #000000 solid;
+            background: #ffffff;
+        }
+
+
+        .txt{
+            margin:4% 6%;
+            line-height: 1.3;
+            font-size: 14px;
+        }
+
+        .h-large{
+            text-align: center;
+            margin: 80px auto 40px;
+            font-size: 32px;
+            color: #ffffff;
+        }
+
+        .card-wrap{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+
+        @media screen and (max-width:500px){
+
+
+
+            body{
+                background: yellow;
+            }
+
+            .card{
+                flex-basis: 100%;
+            }
+
+            .h-largre{
+                text-align: center;
+                margin: 80px auto 40px;
+                font-size: 24px;
+            }
+
+            }
+
+
+        .box17{
+            margin:2em 0;
+            position: relative;
+            padding: 0.5em 1.5em;
+            border-top: solid 2px rgb(255, 255, 255) ;
+            border-bottom: solid 2px rgb(255, 255, 255);
+        }
+        .box17:before, .box17:after{
+            content: '';
+            position: absolute;
+            top: -10px;
+            width: 2px;
+            height: -webkit-calc(100% + 20px);
+            height: calc(100% + 20px);
+            background-color: rgb(255, 255, 255);
+        }
+        .box17:before {left: 50px;}
+        .box17:after {right: 50px;}
+        .box17 p {
+            margin: 0; 
+            padding: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+          <nav>
+               <ul class="menu">
+                 <li><a href="https://int.t-kougei.ac.jp/web1b_b/last/i2224056/">
+                  <font size="5">About me!!</font>
+                 </a></li>
+               </ul>
+          </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrap">
+          <h1 class="h-large"><br>
+            <font size="8">
+              <div class="box17">
+                - ̗̀꒰ঌ My Work ໒꒱ ̖́-
+              </div>
+            </font>
+          </h1>
+
+
+          <div class="card-wrap">
+              <div class="card animate__animated animate__flash">
+                <a href="https://youtu.be/fljy82XDpWI"><img src="IMG_9902.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼サウンド演習　オリジナル曲</font></p>
+                </div>
+                
+              </div>
+
+              <div class="card animate__animated animate__flash">
+                <a href="https://www.youtube.com/watch?v=9PqXqwzm8no"><img src="IMG_9908.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼サウンド演習　アレンジ曲</font></p>
+                </div>
+              </div>
+              <div class="card animate__animated animate__flash">
+                <a href="https://www.youtube.com/watch?v=AUXlWWgaUvY"><img src="IMG_9911.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼IM基礎演習　映像作品</font></p>
+                </div>
+              </div>
+              <div class="card animate__animated animate__flash">
+                <a href="https://www.youtube.com/watch?v=XM0O0r10pmE"><img src="IMG_1204.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼サウンド演習　ゲームの曲</font></p>
+                </div>
+              </div>
+              <div class="card animate__animated animate__flash">
+                <a href="index3.html"><img src="0004.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼イラスト</font></p>
+                </div>
+              </div>
+              <div class="card animate__animated animate__flash">
+                <a href="index2.html"><img src="IMG_9913.jpg" alt=""></a>
+                <div class="txt">
+                  <p><font size="5">▼Figma課題</font></p>
+                </div>
+              </div>
+
+           </div>
+        </div>
+    </main>
+
+</body>
+</html>
